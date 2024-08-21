@@ -1,7 +1,5 @@
-﻿using System.Net.NetworkInformation;
-using LEW.Class.API.Words.Random;
+﻿using LEW.Class.API.Words.Random;
 using LEW.Class.API.Words.Translate;
-using LEW.Class.DataBase;
 
 namespace LEW
 {
