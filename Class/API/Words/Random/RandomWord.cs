@@ -20,8 +20,7 @@ namespace LEW.Class.API.Words.Random
             using (var response = await client.SendAsync(request))
             {
                 response.EnsureSuccessStatusCode();
-                List<string> body = await response.Content.ReadFromJsonAsync<List<string>>();
-                return body;
+                return await response.Content.ReadFromJsonAsync<List<string>>();
             }
         }
     }

@@ -1,5 +1,6 @@
 ﻿using System.Net.NetworkInformation;
 using LEW.Class.API.Words.Random;
+using LEW.Class.API.Words.Translate;
 using LEW.Class.DataBase;
 
 namespace LEW
@@ -11,19 +12,13 @@ namespace LEW
         public MainPage()
         {
             InitializeComponent();
-            var test = RandomWord.RandomEnglish(5);
+            test();
         }
 
-        private void OnCounterClicked(object sender, EventArgs e)
+        private async void test()
         {
-            count++;
-
-            if (count == 1)
-                CounterBtn.Text = $"Clicked {count} time";
-            else
-                CounterBtn.Text = $"Clicked {count} times";
-
-            SemanticScreenReader.Announce(CounterBtn.Text);
+            var test = await Translate.EnglishToFrench("dick");
+            var test2 = await RandomWord.RandomEnglish(5);
         }
     } 
 }
