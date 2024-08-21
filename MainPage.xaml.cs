@@ -17,7 +17,7 @@ namespace LEW
 
         private async void test()
         {
-            var test = await Translate.EnglishToFrench("dick");
+            var test = await Translate.EnglishToFrench("something");
             var test2 = await RandomWord.RandomEnglish(5);
         }
     } 
