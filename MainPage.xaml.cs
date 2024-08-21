@@ -11,7 +11,7 @@ namespace LEW
         public MainPage()
         {
             InitializeComponent();
-            string zeub = RandomWord.RandomEnglish(5);
+            var test = RandomWord.RandomEnglish(5);
         }
 
         private void OnCounterClicked(object sender, EventArgs e)

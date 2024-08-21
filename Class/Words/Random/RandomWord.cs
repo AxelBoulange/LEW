@@ -1,37 +1,29 @@
 ﻿using System.Net.Http.Headers;
+using System.Net.Http.Json;
 
 namespace LEW.Class.Words.Random
 {
-
     public class RandomWord
     {
-        private const string URL = "https://random-words5.p.rapidapi.com/getMultipleRandom";
-        private static string urlParameters = "?count=5";
-
-        public static string RandomEnglish(int nbWords)
+        public static async Task<List<string>> RandomEnglish(int nbWords)
         {
-            HttpClient client = new HttpClient();
-            client.BaseAddress = new Uri(URL);
-
-            // Add an Accept header for JSON format.
-            client.DefaultRequestHeaders.Accept.Add(
-                new MediaTypeWithQualityHeaderValue("application/json"));
-
-            // List data response.
-            HttpResponseMessage response = client.GetAsync(urlParameters).Result;  // Blocking call! Program will wait here until a response is received or a timeout occurs.
-
-            string test = "";
-            if (response.IsSuccessStatusCode)
+            var client = new HttpClient();
+            var request = new HttpRequestMessage
             {
-                // Parse the response body.
-                test = response.Content.ReadAsStringAsync().Result;  //Make sure to add a reference to System.Net.Http.Formatting.dll
+                Method = HttpMethod.Get,
+                RequestUri = new Uri("https://random-words5.p.rapidapi.com/getMultipleRandom?count=" + nbWords),
+                Headers =
+                {
+                    { "x-rapidapi-key", "874ca9c689msh6fe1f7e6560cbbep185732jsna26cc4476986" },
+                    { "x-rapidapi-host", "random-words5.p.rapidapi.com" },
+                },
+            };
+            using (var response = await client.SendAsync(request))
+            {
+                response.EnsureSuccessStatusCode();
+                List<string> body = await response.Content.ReadFromJsonAsync<List<string>>();
+                return body;
             }
-
-            // Make any other calls using HttpClient here.
-
-            // Dispose once all HttpClient calls are complete. This is not necessary if the containing object will be disposed of; for example in this case the HttpClient instance will be disposed automatically when the application terminates so the following call is superfluous.
-            client.Dispose();
-            return test;
         }
     }
 }
