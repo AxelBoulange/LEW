@@ -38,6 +38,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = LEW.Resources.Styles.Color
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
+[C:/Users/lemai/source/repos/LEW (Learn English Words)/LEW/LEW/Resources/Styles/CustomColors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LEW.Resources.Styles.CustomColors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\CustomColors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\CustomColors.xaml
+
 [C:/Users/lemai/source/repos/LEW (Learn English Words)/LEW/LEW/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = LEW.Resources.Styles.Styles.xaml
