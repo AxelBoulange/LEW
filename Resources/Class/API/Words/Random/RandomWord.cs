@@ -1,6 +1,6 @@
 ﻿using System.Net.Http.Json;
 
-namespace LEW.Class.API.Words.Random
+namespace LEW.Resources.Class.API.Words.Random
 {
     public class RandomWord
     {

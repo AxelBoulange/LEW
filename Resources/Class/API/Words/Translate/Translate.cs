@@ -1,7 +1,7 @@
 ﻿using System.Net.Http.Headers;
 using System.Text.Json;
 
-namespace LEW.Class.API.Words.Translate
+namespace LEW.Resources.Class.API.Words.Translate
 {
     public class Translate
     {

@@ -1,6 +1,6 @@
 ﻿using MySqlConnector;
 
-namespace LEW.Class.DataBase
+namespace LEW.Resources.Class.DataBase
 {
     /// <summary>
     /// Get and Close connection Methods.

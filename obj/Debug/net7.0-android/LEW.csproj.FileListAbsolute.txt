@@ -972,3 +972,13 @@ C:\Users\lemai\source\repos\LEW (Learn English Words)\LEW\LEW\obj\Debug\net7.0-a
 C:\Users\lemai\source\repos\LEW (Learn English Words)\LEW\LEW\obj\Debug\net7.0-android\stamp\_GenerateJavaStubs.stamp
 C:\Users\lemai\source\repos\LEW (Learn English Words)\LEW\LEW\obj\Debug\net7.0-android\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\lemai\source\repos\LEW (Learn English Words)\LEW\LEW\obj\Debug\net7.0-android\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\lemai\source\repos\LEW (Learn English Words)\LEW\LEW\obj\Debug\net7.0-android\resizetizer\r\drawable-hdpi\splash_icon_removebg.png
+C:\Users\lemai\source\repos\LEW (Learn English Words)\LEW\LEW\obj\Debug\net7.0-android\resizetizer\r\drawable-mdpi\splash_icon_removebg.png
+C:\Users\lemai\source\repos\LEW (Learn English Words)\LEW\LEW\obj\Debug\net7.0-android\resizetizer\r\drawable-xhdpi\splash_icon_removebg.png
+C:\Users\lemai\source\repos\LEW (Learn English Words)\LEW\LEW\obj\Debug\net7.0-android\resizetizer\r\drawable-xxhdpi\splash_icon_removebg.png
+C:\Users\lemai\source\repos\LEW (Learn English Words)\LEW\LEW\obj\Debug\net7.0-android\resizetizer\r\drawable-xxxhdpi\splash_icon_removebg.png
+C:\Users\lemai\source\repos\LEW (Learn English Words)\LEW\LEW\obj\Debug\net7.0-android\resizetizer\r\drawable-hdpi\arrow_right.png
+C:\Users\lemai\source\repos\LEW (Learn English Words)\LEW\LEW\obj\Debug\net7.0-android\resizetizer\r\drawable-mdpi\arrow_right.png
+C:\Users\lemai\source\repos\LEW (Learn English Words)\LEW\LEW\obj\Debug\net7.0-android\resizetizer\r\drawable-xhdpi\arrow_right.png
+C:\Users\lemai\source\repos\LEW (Learn English Words)\LEW\LEW\obj\Debug\net7.0-android\resizetizer\r\drawable-xxhdpi\arrow_right.png
+C:\Users\lemai\source\repos\LEW (Learn English Words)\LEW\LEW\obj\Debug\net7.0-android\resizetizer\r\drawable-xxxhdpi\arrow_right.png

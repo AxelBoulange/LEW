@@ -268,3 +268,9 @@ C:\Users\lemai\source\repos\LEW (Learn English Words)\LEW\LEW\obj\Debug\net7.0-i
 C:\Users\lemai\source\repos\LEW (Learn English Words)\LEW\LEW\obj\Debug\net7.0-ios\iossimulator-x64\LEW.pdb
 C:\Users\lemai\source\repos\LEW (Learn English Words)\LEW\LEW\obj\Debug\net7.0-ios\iossimulator-x64\LEW.genruntimeconfig.cache
 C:\Users\lemai\source\repos\LEW (Learn English Words)\LEW\LEW\obj\Debug\net7.0-ios\iossimulator-x64\ref\LEW.dll
+C:\Users\lemai\source\repos\LEW (Learn English Words)\LEW\LEW\obj\Debug\net7.0-ios\iossimulator-x64\resizetizer\r\splash_icon_removebg.png
+C:\Users\lemai\source\repos\LEW (Learn English Words)\LEW\LEW\obj\Debug\net7.0-ios\iossimulator-x64\resizetizer\r\splash_icon_removebg@2x.png
+C:\Users\lemai\source\repos\LEW (Learn English Words)\LEW\LEW\obj\Debug\net7.0-ios\iossimulator-x64\resizetizer\r\splash_icon_removebg@3x.png
+C:\Users\lemai\source\repos\LEW (Learn English Words)\LEW\LEW\obj\Debug\net7.0-ios\iossimulator-x64\resizetizer\r\arrow_right.png
+C:\Users\lemai\source\repos\LEW (Learn English Words)\LEW\LEW\obj\Debug\net7.0-ios\iossimulator-x64\resizetizer\r\arrow_right@2x.png
+C:\Users\lemai\source\repos\LEW (Learn English Words)\LEW\LEW\obj\Debug\net7.0-ios\iossimulator-x64\resizetizer\r\arrow_right@3x.png

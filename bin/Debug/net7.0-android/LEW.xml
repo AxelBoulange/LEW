@@ -4,29 +4,29 @@
         <name>LEW</name>
     </assembly>
     <members>
-        <member name="T:LEW.Class.DataBase.DB_Connector">
+        <member name="T:LEW.Resources.Class.DataBase.DB_Connector">
             <summary>
             Get and Close connection Methods.
             </summary>
         </member>
-        <member name="M:LEW.Class.DataBase.DB_Connector.GetConnection">
+        <member name="M:LEW.Resources.Class.DataBase.DB_Connector.GetConnection">
             <summary>
             Methods which create a connection and open it.
             </summary>
             <returns>The opened connection.</returns>
         </member>
-        <member name="M:LEW.Class.DataBase.DB_Connector.CloseConnection(MySqlConnector.MySqlConnection)">
+        <member name="M:LEW.Resources.Class.DataBase.DB_Connector.CloseConnection(MySqlConnector.MySqlConnection)">
             <summary>
             Methods which close a connection.
             </summary>
             <param name="connection">The connection you want to close.</param>
         </member>
-        <member name="T:LEW.Class.DataBase.DB_Miscellaneous">
+        <member name="T:LEW.Resources.Class.DataBase.DB_Miscellaneous">
             <summary>
             Useful DB Methods.
             </summary>
         </member>
-        <member name="M:LEW.Class.DataBase.DB_Miscellaneous.Ping(MySqlConnector.MySqlConnection)">
+        <member name="M:LEW.Resources.Class.DataBase.DB_Miscellaneous.Ping(MySqlConnector.MySqlConnection)">
             <summary>
             Check the connection between the current device and the DB server. 
             </summary>

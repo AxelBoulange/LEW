@@ -8,7 +8,9 @@
     <Color x:Key="Primary">#334766</Color>
     <Color x:Key="Secondary">#52cfc2</Color>
     <Color x:Key="Text">#e6edaf</Color>
-    <Color x:Key="IconColor">#e6edaf</Color>
+    <Color x:Key="Icon">#e6edaf</Color>
+    <Color x:Key="Border">#52cfc2</Color>
+
     
 
 </ResourceDictionary>

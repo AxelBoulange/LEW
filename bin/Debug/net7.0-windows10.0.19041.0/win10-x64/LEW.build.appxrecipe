@@ -721,6 +721,21 @@
     <AppxPackagedFile Include="C:\Users\lemai\source\repos\LEW %28Learn English Words%29\LEW\LEW\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lemai\source\repos\LEW %28Learn English Words%29\LEW\LEW\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splash_icon_removebgSplashScreen.scale-100.png">
+      <PackagePath>splash_icon_removebgSplashScreen.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lemai\source\repos\LEW %28Learn English Words%29\LEW\LEW\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splash_icon_removebgSplashScreen.scale-125.png">
+      <PackagePath>splash_icon_removebgSplashScreen.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lemai\source\repos\LEW %28Learn English Words%29\LEW\LEW\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splash_icon_removebgSplashScreen.scale-150.png">
+      <PackagePath>splash_icon_removebgSplashScreen.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lemai\source\repos\LEW %28Learn English Words%29\LEW\LEW\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splash_icon_removebgSplashScreen.scale-200.png">
+      <PackagePath>splash_icon_removebgSplashScreen.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lemai\source\repos\LEW %28Learn English Words%29\LEW\LEW\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splash_icon_removebgSplashScreen.scale-400.png">
+      <PackagePath>splash_icon_removebgSplashScreen.scale-400.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lemai\source\repos\LEW %28Learn English Words%29\LEW\LEW\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
     </AppxPackagedFile>
@@ -864,6 +879,21 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lemai\source\repos\LEW %28Learn English Words%29\LEW\LEW\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon_logoWideTile.scale-400.png">
       <PackagePath>appicon_logoWideTile.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lemai\source\repos\LEW %28Learn English Words%29\LEW\LEW\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\arrow_right.scale-100.png">
+      <PackagePath>arrow_right.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lemai\source\repos\LEW %28Learn English Words%29\LEW\LEW\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\arrow_right.scale-125.png">
+      <PackagePath>arrow_right.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lemai\source\repos\LEW %28Learn English Words%29\LEW\LEW\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\arrow_right.scale-150.png">
+      <PackagePath>arrow_right.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lemai\source\repos\LEW %28Learn English Words%29\LEW\LEW\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\arrow_right.scale-200.png">
+      <PackagePath>arrow_right.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lemai\source\repos\LEW %28Learn English Words%29\LEW\LEW\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\arrow_right.scale-400.png">
+      <PackagePath>arrow_right.scale-400.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lemai\source\repos\LEW %28Learn English Words%29\LEW\LEW\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>

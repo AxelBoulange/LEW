@@ -2,8 +2,8 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="LEW.MainPage"
-             Title="">
+             Title="Learn English Words">
     
-    <Grid BackgroundColor="{StaticResource BackGround}" HorizontalOptions="Fill" VerticalOptions="Fill"><Label HorizontalOptions="Center" VerticalOptions="Center" TextColor="{StaticResource Secondary}">feggfyufdhvfuifhvuihjfvjinrjivnrinhvifnhvinfdjivnjdfn</Label></Grid>
-
+    <Grid x:Name="Main" BackgroundColor="{StaticResource BackGround}" HorizontalOptions="Fill" VerticalOptions="Fill" RowDefinitions="Auto, Auto, Auto" Padding="0,20,0,0"/>
+    
 </ContentPage>
