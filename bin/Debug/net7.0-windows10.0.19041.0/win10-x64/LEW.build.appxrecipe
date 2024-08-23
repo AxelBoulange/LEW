@@ -910,6 +910,21 @@
     <AppxPackagedFile Include="C:\Users\lemai\source\repos\LEW %28Learn English Words%29\LEW\LEW\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lemai\source\repos\LEW %28Learn English Words%29\LEW\LEW\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\stars.scale-100.jpg">
+      <PackagePath>stars.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lemai\source\repos\LEW %28Learn English Words%29\LEW\LEW\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\stars_16_9.scale-100.jpg">
+      <PackagePath>stars_16_9.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lemai\source\repos\LEW %28Learn English Words%29\LEW\LEW\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\stars_full.scale-100.jpg">
+      <PackagePath>stars_full.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lemai\source\repos\LEW %28Learn English Words%29\LEW\LEW\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\starts_16_9.scale-100.jpg">
+      <PackagePath>starts_16_9.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lemai\source\repos\LEW %28Learn English Words%29\LEW\LEW\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\start_16_9.scale-100.jpg">
+      <PackagePath>start_16_9.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
     <ResolvedSDKReference Include="C:\Users\lemai\.nuget\packages\microsoft.windowsappsdk\1.2.221209.1\buildTransitive\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.2.msix">

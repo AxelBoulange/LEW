@@ -2699,9 +2699,14 @@ int drawable notification_tile_bg 0x7f0700cf
 int drawable notify_panel_notification_icon_bg 0x7f0700d0
 int drawable splash 0x7f0700d1
 int drawable splash_icon_removebg 0x7f0700d2
-int drawable test_level_drawable 0x7f0700d3
-int drawable tooltip_frame_dark 0x7f0700d4
-int drawable tooltip_frame_light 0x7f0700d5
+int drawable stars 0x7f0700d3
+int drawable stars_16_9 0x7f0700d4
+int drawable stars_full 0x7f0700d5
+int drawable start_16_9 0x7f0700d6
+int drawable starts_16_9 0x7f0700d7
+int drawable test_level_drawable 0x7f0700d8
+int drawable tooltip_frame_dark 0x7f0700d9
+int drawable tooltip_frame_light 0x7f0700da
 int id ALT 0x7f080000
 int id BOTTOM_END 0x7f080001
 int id BOTTOM_START 0x7f080002

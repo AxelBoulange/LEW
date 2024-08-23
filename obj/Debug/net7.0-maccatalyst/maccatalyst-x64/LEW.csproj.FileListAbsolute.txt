@@ -261,3 +261,8 @@ C:\Users\lemai\source\repos\LEW (Learn English Words)\LEW\LEW\obj\Debug\net7.0-m
 C:\Users\lemai\source\repos\LEW (Learn English Words)\LEW\LEW\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\arrow_right.png
 C:\Users\lemai\source\repos\LEW (Learn English Words)\LEW\LEW\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\arrow_right@2x.png
 C:\Users\lemai\source\repos\LEW (Learn English Words)\LEW\LEW\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\arrow_right@3x.png
+C:\Users\lemai\source\repos\LEW (Learn English Words)\LEW\LEW\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\stars.jpg
+C:\Users\lemai\source\repos\LEW (Learn English Words)\LEW\LEW\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\stars_full.jpg
+C:\Users\lemai\source\repos\LEW (Learn English Words)\LEW\LEW\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\start_16_9.jpg
+C:\Users\lemai\source\repos\LEW (Learn English Words)\LEW\LEW\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\starts_16_9.jpg
+C:\Users\lemai\source\repos\LEW (Learn English Words)\LEW\LEW\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\stars_16_9.jpg

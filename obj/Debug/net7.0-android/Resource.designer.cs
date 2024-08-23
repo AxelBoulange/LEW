@@ -8269,13 +8269,28 @@ namespace LEW
 			public const int splash_icon_removebg = 2131165394;
 			
 			// aapt resource value: 0x7F0700D3
-			public const int test_level_drawable = 2131165395;
+			public const int stars = 2131165395;
 			
 			// aapt resource value: 0x7F0700D4
-			public const int tooltip_frame_dark = 2131165396;
+			public const int stars_16_9 = 2131165396;
 			
 			// aapt resource value: 0x7F0700D5
-			public const int tooltip_frame_light = 2131165397;
+			public const int stars_full = 2131165397;
+			
+			// aapt resource value: 0x7F0700D7
+			public const int starts_16_9 = 2131165399;
+			
+			// aapt resource value: 0x7F0700D6
+			public const int start_16_9 = 2131165398;
+			
+			// aapt resource value: 0x7F0700D8
+			public const int test_level_drawable = 2131165400;
+			
+			// aapt resource value: 0x7F0700D9
+			public const int tooltip_frame_dark = 2131165401;
+			
+			// aapt resource value: 0x7F0700DA
+			public const int tooltip_frame_light = 2131165402;
 			
 			static Drawable()
 			{

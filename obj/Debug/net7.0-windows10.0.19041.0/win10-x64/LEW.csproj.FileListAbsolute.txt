@@ -333,3 +333,8 @@ C:\Users\lemai\source\repos\LEW (Learn English Words)\LEW\LEW\obj\Debug\net7.0-w
 C:\Users\lemai\source\repos\LEW (Learn English Words)\LEW\LEW\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\arrow_right.scale-150.png
 C:\Users\lemai\source\repos\LEW (Learn English Words)\LEW\LEW\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\arrow_right.scale-200.png
 C:\Users\lemai\source\repos\LEW (Learn English Words)\LEW\LEW\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\arrow_right.scale-400.png
+C:\Users\lemai\source\repos\LEW (Learn English Words)\LEW\LEW\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\stars.scale-100.jpg
+C:\Users\lemai\source\repos\LEW (Learn English Words)\LEW\LEW\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\stars_full.scale-100.jpg
+C:\Users\lemai\source\repos\LEW (Learn English Words)\LEW\LEW\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\start_16_9.scale-100.jpg
+C:\Users\lemai\source\repos\LEW (Learn English Words)\LEW\LEW\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\starts_16_9.scale-100.jpg
+C:\Users\lemai\source\repos\LEW (Learn English Words)\LEW\LEW\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\stars_16_9.scale-100.jpg

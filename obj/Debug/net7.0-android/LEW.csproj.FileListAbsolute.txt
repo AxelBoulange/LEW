@@ -982,3 +982,8 @@ C:\Users\lemai\source\repos\LEW (Learn English Words)\LEW\LEW\obj\Debug\net7.0-a
 C:\Users\lemai\source\repos\LEW (Learn English Words)\LEW\LEW\obj\Debug\net7.0-android\resizetizer\r\drawable-xhdpi\arrow_right.png
 C:\Users\lemai\source\repos\LEW (Learn English Words)\LEW\LEW\obj\Debug\net7.0-android\resizetizer\r\drawable-xxhdpi\arrow_right.png
 C:\Users\lemai\source\repos\LEW (Learn English Words)\LEW\LEW\obj\Debug\net7.0-android\resizetizer\r\drawable-xxxhdpi\arrow_right.png
+C:\Users\lemai\source\repos\LEW (Learn English Words)\LEW\LEW\obj\Debug\net7.0-android\resizetizer\r\drawable\stars.jpg
+C:\Users\lemai\source\repos\LEW (Learn English Words)\LEW\LEW\obj\Debug\net7.0-android\resizetizer\r\drawable\stars_full.jpg
+C:\Users\lemai\source\repos\LEW (Learn English Words)\LEW\LEW\obj\Debug\net7.0-android\resizetizer\r\drawable\start_16_9.jpg
+C:\Users\lemai\source\repos\LEW (Learn English Words)\LEW\LEW\obj\Debug\net7.0-android\resizetizer\r\drawable\starts_16_9.jpg
+C:\Users\lemai\source\repos\LEW (Learn English Words)\LEW\LEW\obj\Debug\net7.0-android\resizetizer\r\drawable\stars_16_9.jpg

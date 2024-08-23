@@ -2,7 +2,7 @@
 
 namespace LEW.Resources.Class.API.Words.Random
 {
-    public class RandomWord
+    public class RandomWords
     {
         public static async Task<List<string>> RandomEnglish(int nbWords)
         {
@@ -21,6 +21,7 @@ namespace LEW.Resources.Class.API.Words.Random
             {
                 response.EnsureSuccessStatusCode();
                 return await response.Content.ReadFromJsonAsync<List<string>>();
+                
             }
         }
     }
