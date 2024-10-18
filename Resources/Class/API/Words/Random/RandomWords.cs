@@ -21,7 +21,6 @@ namespace LEW.Resources.Class.API.Words.Random
             {
                 response.EnsureSuccessStatusCode();
                 return await response.Content.ReadFromJsonAsync<List<string>>();
-                
             }
         }
     }

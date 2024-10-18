@@ -5,6 +5,7 @@ namespace LEW.Resources.Class.Visuals;
 
 public class Cards
 {
+    public event EventHandler NextStep;
     public static Frame DifficultyChoiceGrid(Color difficultyColor, string difficultyText, string DescriptionText, int Row, EventHandler<TappedEventArgs> clicked)
     {
         Frame card = new Frame{ BorderColor = Colors.Border, CornerRadius = 10,  BackgroundColor = Colors.Primary, HeightRequest = 100, Margin = new Thickness(20), HorizontalOptions = LayoutOptions.Fill, VerticalOptions = LayoutOptions.Fill, Padding = new Thickness(0)};
@@ -58,7 +59,7 @@ public class Cards
         return card;
     }
     
-    public static Frame FrenchWord(string word)
+    public Frame FrenchWord(string word)
     {
         Frame card = new Frame{ BorderColor = Colors.Border, CornerRadius = 10,  BackgroundColor = Colors.Primary, HeightRequest = 50, Margin = new Thickness(20), HorizontalOptions = LayoutOptions.Center, VerticalOptions = LayoutOptions.Fill, Padding = new Thickness(10,0)};
         Grid grid = new Grid{ HorizontalOptions = LayoutOptions.Fill, VerticalOptions = LayoutOptions.Fill};
@@ -93,7 +94,7 @@ public class Cards
         return card;
     }
 
-    public static VerticalStackLayout EnglishWords(List<string> listWords, int nbWords)
+    public VerticalStackLayout EnglishWords(List<string> listWords, int nbWords)
     {
         VerticalStackLayout wordsLayout = new VerticalStackLayout{HorizontalOptions = LayoutOptions.Fill, VerticalOptions = LayoutOptions.Start, Margin = new Thickness(0,40,0,0), Spacing = 20};
         List<Button> buttons = new List<Button>();
@@ -108,6 +109,7 @@ public class Cards
                 e = async (sender, args) =>
                 {
                     await Application.Current.MainPage.DisplayAlert( "","False", "OK");
+                    NextStep?.Invoke( sender, args);
                 };
             }
             else
@@ -115,6 +117,7 @@ public class Cards
                 e =  async (sender, args) =>
                 {
                     await Application.Current.MainPage.DisplayAlert( "","True", "OK");
+                    NextStep?.Invoke( sender, args);
                 };
                 first = false;
             }

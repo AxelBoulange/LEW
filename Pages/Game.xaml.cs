@@ -15,12 +15,13 @@ namespace LEW.Pages
         {
             _nbWords = nbWords;
             InitializeComponent();
-            _ = LoadWordsAsync();
+            _ = LoadMoreAsync();
         }
 
-        private async Task LoadWordsAsync()
+        private async Task LoadMoreAsync()
         {
             await Loading();
+            SetMainBackground();
             ShowWords();
             LoadMore();
         }
@@ -69,12 +70,56 @@ namespace LEW.Pages
             }
         }
 
+        private async void LoaOneMore()
+        {
+            int placeWhereLoad = _listsWordsCurrentPlace == 0 ? 9 : _listsWordsCurrentPlace - 1;
+            try
+            {
+                _listsEnglishWords[placeWhereLoad] = await RandomWords.RandomEnglish(_nbWords);
+                _listsFrenchWords[placeWhereLoad] = await Translate.EnglishToFrench(_listsEnglishWords[placeWhereLoad][0]);
+            }
+            catch
+            {
+                await DisplayAlert("ERROR", "Something went wrong in \"LoadOneMore\".", "Leave");
+                await Navigation.PopAsync();
+            }
+        }
+        
         private void ShowWords()
         {
-            Main.Children.Add(Cards.FrenchWord(_listsFrenchWords[_listsWordsCurrentPlace]));
-            Main.Children.Add(Cards.EnglishWords(_listsEnglishWords[_listsWordsCurrentPlace],_nbWords));
-            
-            _listsWordsCurrentPlace++;
+            Cards c = new Cards();
+            c.NextStep += GameNextStep;
+            Main.Children.Add(c.FrenchWord(_listsFrenchWords[_listsWordsCurrentPlace]));
+            Main.Children.Add(c.EnglishWords(_listsEnglishWords[_listsWordsCurrentPlace],_nbWords));
+            LoaOneMore();
+            if (_listsWordsCurrentPlace == 9)
+            {
+                _listsWordsCurrentPlace = 0;
+            }
+            else
+            {
+                _listsWordsCurrentPlace++;
+            }
         }
+
+        private void GameNextStep(object o, EventArgs e)
+        {
+            Main.Clear();
+            SetMainBackground();
+        }
+
+        private void SetMainBackground()
+        {
+            Image background = new Image
+            {
+                VerticalOptions = LayoutOptions.Fill,
+                HorizontalOptions = LayoutOptions.Fill,
+                Aspect = Aspect.AspectFill,
+                Source = "Resources/Images/Backgrounds/stars_16_9.jpg"
+            };
+            Grid.SetRowSpan(background,4);
+            Main.Add(background);
+        }
+        
     } 
 }

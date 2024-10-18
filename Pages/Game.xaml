@@ -3,8 +3,6 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="LEW.Pages.Game">
     
-    <Grid x:Name="Main" HorizontalOptions="Fill" VerticalOptions="Fill" RowDefinitions="Auto,*">
-            <Image HorizontalOptions="Fill" VerticalOptions="Fill" Source="Resources/Images/Backgrounds/stars_16_9.jpg" Aspect="AspectFill" Grid.RowSpan="4" />
-    </Grid>
+    <Grid x:Name="Main" HorizontalOptions="Fill" VerticalOptions="Fill" RowDefinitions="Auto,*"/>
     
 </ContentPage>
